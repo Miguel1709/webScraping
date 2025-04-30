@@ -1,0 +1,6 @@
+projectKey=testWebScraping
+serverUrl=http://localhost:9000
+serverVersion=25.4.0.105899
+dashboardUrl=http://localhost:9000/dashboard?id=testWebScraping
+ceTaskId=e089bf30-0fef-4a75-9eff-ce73fefaa5d1
+ceTaskUrl=http://localhost:9000/api/ce/task?id=e089bf30-0fef-4a75-9eff-ce73fefaa5d1
