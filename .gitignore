@@ -1,16 +1,5 @@
-# Entornos virtuales
 .venv/
 __pycache__/
 *.pyc
-
-# Archivos de PyCharm
-.idea/
-
-# Datos y logs
-logs/
-*.log
-*.coverage
-coverage.xml
-
-# Archivos específicos
+.env
 .DS_Store
