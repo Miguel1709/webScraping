@@ -1,7 +1,7 @@
 
 # 🕷️ Proyecto de Web Scraping con Selenium
 
-Este proyecto es una solución completa de **web scraping automatizado** para extraer información de productos desde distintas plataformas de comercio electrónico como **Amazon, eBay, AliExpress, Mercado Libre y Shein**, utilizando **Python**, **Selenium** y módulos personalizados para el procesamiento y exportación de datos.
+Este proyecto es una solución completa de **web scraping automatizado** para extraer información de productos desde distintas plataformas de comercio electrónico como **Amazon, eBay, AliExpress y Mercado Libre**, utilizando **Python**, **Selenium** y módulos personalizados para el procesamiento y exportación de datos.
 
 ## 📌 Objetivo
 
