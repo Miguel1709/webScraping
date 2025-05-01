@@ -1,13 +1,13 @@
 
-# 🕷️ Proyecto de Web Scraping con Selenium
+#  Proyecto de Web Scraping con Selenium
 
 Este proyecto es una solución completa de **web scraping automatizado** para extraer información de productos desde distintas plataformas de comercio electrónico como **Amazon, eBay, AliExpress y Mercado Libre**, utilizando **Python**, **Selenium** y módulos personalizados para el procesamiento y exportación de datos.
 
-## 📌 Objetivo
+## Objetivo
 
 Automatizar la recolección de datos clave (nombre y precio de productos) desde páginas dinámicas generadas con JavaScript, exportando los resultados a un archivo Excel y registrando cualquier error ocurrido durante el proceso.
 
-## 🧠 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Python 3.7+**
 - **Selenium**: automatización del navegador.
@@ -16,7 +16,7 @@ Automatizar la recolección de datos clave (nombre y precio de productos) desde 
 - **ChromeDriver**: controlador del navegador Chrome.
 - **Logging personalizado** para gestión de errores.
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 project_root/
@@ -36,25 +36,25 @@ project_root/
 └── README.md
 ```
 
-## ⚙️ Requisitos
+##  Requisitos
 
 - Google Chrome instalado
 - ChromeDriver descargado (compatible con tu versión de Chrome)
 - Python 3.7 o superior
 
-### 🧱 Instalación de dependencias
+### Instalación de dependencias
 
 ```bash
 pip install selenium pandas openpyxl
 ```
 
-## 🛠️ ¿Cómo funciona?
+## ¿Cómo funciona?
 
 1. Cada scraper se enfoca en una tienda específica y extrae los productos usando selectores CSS o XPath según la estructura HTML.
 2. Los precios se limpian y estandarizan con una función utilitaria.
 3. Los productos se exportan a un archivo `.xlsx`, y los errores se guardan en un log.
 
-## ▶️ Ejecución
+## Ejecución
 
 Ejecuta el scraper de la tienda que desees, por ejemplo:
 
@@ -64,7 +64,7 @@ python scrapers/ebay_scraper.py
 
 Puedes modificar la URL de búsqueda directamente en el archivo del scraper.
 
-## 🧩 Modularidad
+## Modularidad
 
 Este proyecto está dividido en módulos reutilizables:
 
@@ -72,7 +72,7 @@ Este proyecto está dividido en módulos reutilizables:
 - **exporter.py**: exporta los productos extraídos a un archivo Excel.
 - **price_cleaner.py**: elimina símbolos, espacios y convierte los precios a formato numérico.
 
-## 📋 Notas adicionales
+## Notas adicionales
 
 - Los scrapers usan `--headless` para no mostrar el navegador.
 - Algunas tiendas cambian constantemente su estructura HTML. Revisa los selectores si deja de funcionar.
